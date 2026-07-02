@@ -141,4 +141,4 @@ return ChatResponse(npc_name=request.npc_name, npc_title=npc_info["title"],
 | `config.py` | `agents.py` 的 LLM、`state_manager.py` 的定时器都从这里取参数 |
 | `logger.py` | `agents.py` 的六步对话流水线全程打点 |
 
-骨架立好之后，剩下的问题才是本章真正的主角：张三、李四、王五如何"记得你、喜欢你、有自己的生活"——请看下一篇 `agents.md`。
+骨架立好之后，剩下的问题才是本章真正的主角：张三、李四、王五如何"记得你、喜欢你、有自己的生活"——请看下一篇 `town_agents.md`。
